@@ -1,0 +1,32 @@
+{
+  "name": "manzadey/yandex-metrika",
+  "description": "Yandex Metrika API",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Manzadey",
+      "email": "andrey.manzadey@yandex.ru",
+      "homepage": "https://github.com/Manzadey",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Manzadey\\YandexMetrika\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Manzadey\\YandexMetrika\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.1|^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
